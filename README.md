@@ -10,10 +10,17 @@ Here are some useful language patterns. [Basic parsing patterns](#basic-parsing-
 - [x] LL(1) recursive descendent syntax parsing
         
     package [Recursive_descent](./src/Recursive_descent)
-- [ ] LL(k) recursive descendent syntax parsing
+- [x] LL(k) recursive descendent syntax parsing
 
+    package [Multi](./src/Multi)
 
 
 ## High Level Parsing Patterns:
+
+- [ ] backtracking parser
+
+- [ ] memory parser
+
+- [ ] predicate parser
 
 // TODO LIST
