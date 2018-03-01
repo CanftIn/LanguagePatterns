@@ -9,7 +9,7 @@ public abstract class Parser {
     public void match(int x) {
         if(lookahead.type == x) {
             consume();
-            //System.out.println("<" + lookahead.text + ", " + lookahead.type + ">");
+            System.out.println("<" + lookahead.text + ", " + lookahead.type + ">");
         }
         else throw new Error("expecting "+input.getTokenName(x)+
                 "; found "+ lookahead);
